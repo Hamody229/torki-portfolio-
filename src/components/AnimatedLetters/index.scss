@@ -1,0 +1,28 @@
+@import '../../App.scss';
+
+.text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 1s 1s forwards;
+    min-width: 10px;
+}
+
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+    cursor: pointer;
+    color: #fff;
+
+    &:hover {
+        animation: rubberBand 1s;
+        color: $primary-color; 
+        text-shadow: 0 0 7px $primary-color;
+    }
+}
+
+@for $i from 1 through 45 {
+    ._#{$i} {
+        animation-delay: #{($i / 10) + 0.5}s;
+    }
+}

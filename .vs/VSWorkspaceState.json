@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\components",
+    "\\src\\components\\AnimatedLetters",
+    "\\src\\components\\Home",
+    "\\src\\components\\Home\\Logo",
+    "\\src\\components\\Layout",
+    "\\src\\components\\Sidebar"
+  ],
+  "SelectedNode": "\\src\\components\\Home\\index.scss",
+  "PreviewInSolutionExplorer": false
+}

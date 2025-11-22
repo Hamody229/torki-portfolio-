@@ -1,0 +1,16 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #f2f2f2;
+    background: radial-gradient(circle at 50% 50%, #043a57 0%, #022c43 100%);
+    background-color: #022c43; 
+
+    overflow: hidden;
+    display: block;
+}
